@@ -1,3 +1,7 @@
 import React from 'react'
 
-export default () => <h1>Primeiro Component</h1>
+export default (props) => 
+    <div>
+        <h1>Primeiro Componente</h1>
+        <h2>{props.valor} {props.outroValor}</h2>
+    </div>
