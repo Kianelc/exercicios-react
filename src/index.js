@@ -11,13 +11,12 @@ ReactDOM.render(
     <div>
         <h1>Olá Mundo React!</h1>
         <strong>Relação Entre Componente 01</strong>
-        <FamiliaCasagrande></FamiliaCasagrande>
+        <FamiliaCasagrande sobrenome="Casagrande"></FamiliaCasagrande>
         <br />
         <br />
         <strong>Relação Entre Componente 02</strong>
-        <Familia>
-            <Membro nome="Lucia" sobrenome="Casagrande"></Membro>
-            <Membro nome="Harry" sobrenome="Casagrande"></Membro>
+        <Familia sobrenome="Casapequena">
+            <Membro nome="Lucia"></Membro>
         </Familia>
         <br />
         <br />
