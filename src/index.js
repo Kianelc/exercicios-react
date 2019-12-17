@@ -5,11 +5,16 @@ import { CompA, CompB as ComponenteB } from './componentes/SegundoComponente'
 import FamiliaCasagrande from './componentes/FamiliaCasagrande'
 import Membro from './componentes/Membro'
 import Familia from './componentes/Familia'
+import ComponenteComFuncao from './componentes/ComponenteComFuncao'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
         <h1>Olá Mundo React!</h1>
+        <strong>Componente com função</strong>
+        <ComponenteComFuncao></ComponenteComFuncao>
+        <br/>
+        <br/>
         <strong>Relação Entre Componente 01</strong>
         <FamiliaCasagrande sobrenome="Casagrande"></FamiliaCasagrande>
         <br />
