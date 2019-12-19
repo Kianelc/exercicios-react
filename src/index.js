@@ -8,11 +8,16 @@ import Familia from './componentes/Familia'
 import ComponenteComFuncao from './componentes/ComponenteComFuncao'
 import Pai from './componentes/Pai'
 import ComponenteClasse from './componentes/ComponenteClasse'
+import Contador from './componentes/Contador'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
         <h1>Olá Mundo React!</h1>
+        <strong>Componente de Classe Usando State</strong>
+        <Contador numeroInicial={10}></Contador>
+        <br/>
+        <br/>
         <strong>Componente de Classe</strong>
         <ComponenteClasse valor="Classe!"></ComponenteClasse>
         <br/>
