@@ -9,11 +9,16 @@ import ComponenteComFuncao from './componentes/ComponenteComFuncao'
 import Pai from './componentes/Pai'
 import ComponenteClasse from './componentes/ComponenteClasse'
 import Contador from './componentes/Contador'
+import Hook from './componentes/Hook'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
         <h1>Olá Mundo React!</h1>
+        <strong>Hooks</strong>
+        <Hook></Hook>
+        <br/>
+        <br/>
         <strong>Componente de Classe Usando State</strong>
         <Contador numeroInicial={10}></Contador>
         <br/>
